@@ -65,3 +65,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # shop-api
+Commande to create this API
+- copy all .env.testting => .env
+- Name DataBase : DB_DATABASE=shop-api
+- [X] Create Migration : php artisan make:migration create_products_table
+- [X] Create Models : php artisan make:model ProductModel
+- [X] Create controller : php artisan make:controller ProductController
+- [X] Mise en place  de la Route : example Route::post('/product', [ProductController::class, 'createProduct']); => created product
